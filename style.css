@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+
+span{
+  color:blue;
+}
+.footer{
+  background-color:blue;
+  color:white;
+  font-weight:bold;
+  height:80px;
+  display: flex; /* Enables flexbox for alignment */
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+
+}
+h5{
+  text-align:center;
+  display: flex; /* Enables flexbox for alignment */
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+}
