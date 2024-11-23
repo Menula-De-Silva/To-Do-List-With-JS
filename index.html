@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn.glitch.global/44dfbe33-3fd7-4d69-8af7-a411b039cd9a/babebd57-a7d3-44c8-ab4b-589fee2292c4.image.png?v=1732353568261">
+</head>
+<body class="bg-light" data-aos="fade-down-right">
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4" id="main-text"><span>T</span>o <span>D</span>o <span>L</span>ist</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card shadow">
+              <div class="card-body">
+              <div class="input-group mb-3">
+                  <input type="text" id="taskInput" class="form-control" placeholder="Add a new task..." aria-label="Task">
+                  <button class="btn btn-primary" id="addTaskBtn">Add Task</button>
+                </div>
+               
+                <ul id="taskList" class="list-group"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <h3 class="text-center mt-4">Completed Tasks</h3>
+        <ul id="completedTaskList" class="list-group"></ul>
+      </div>
+
+  <br><br><br><br><br><br><br><br><br><br><br><hr><br>
+  
+  <footer class="footer">
+    <h5>
+      <center>
+        &copy Copyrights By <a link="https://menula-de-silva.glitch.me" href="https://menula-de-silva.glitch.me">Menula De Silva</a>
+      </center>
+    </h5>
+  </footer>
+    
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+</body>
+</html>
